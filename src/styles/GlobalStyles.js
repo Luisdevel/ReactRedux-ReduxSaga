@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import { primaryColor, primryDarkColor } from '../config/colors';
+import { primaryColor, primaryDarkColor } from '../config/colors';
 
 export default createGlobalStyle`
   * {
@@ -11,8 +11,8 @@ export default createGlobalStyle`
 
   body {
     font-family: sans-serif;
-    background: ${primryDarkColor};
-    color: ${primryDarkColor};
+    background: ${primaryDarkColor};
+    color: ${primaryDarkColor};
   }
 
   html, body, #root {
