@@ -9,6 +9,7 @@
     "axios": "^0.19.2",
     "cors": "^2.8.5",
     "eslint-config-airbnb": "^18.2.0",
+    "express-delay": "^0.2.0",
     "history": "^4.10.1",
     "lodash": "^4.17.19",
     "prop-types": "^15.7.2",
@@ -22,7 +23,8 @@
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",
     "redux-saga": "^1.1.3",
-    "styled-components": "^5.1.1"
+    "styled-components": "^5.1.1",
+    "validator": "^13.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
